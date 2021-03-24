@@ -1,0 +1,151 @@
+header{
+	padding-bottom: 20px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	background-color: #F2F4F3;
+}
+
+*{
+	   box-sizing: border-box;
+}
+
+main{
+	padding: 20px;
+}
+
+h1{
+	color: #0A0908;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+
+nav {
+   background-color: #A9927D;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+nav a{
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;;
+	color: white;
+}
+
+nav a:hover{
+	font-weight: bold;
+	color: black;
+}
+
+
+li{
+	display: inline;
+	margin-right: 10px; 
+}
+
+article{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+
+h2, h3{
+	color: #0a0908;
+}
+
+p{
+	line-height: 1,5; /*buat spacing*/
+	text-indent: 2em; 	/*buat paragraf atau tab*/
+	text-align: justify;
+	padding: 20px;
+}
+
+footer{
+	padding: 20px;
+	color: #a9927d;
+	background-color: #0A0908;
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+
+.logo{
+	text-align: center;
+}
+
+.center{
+	margin: auto;
+}
+
+.box{
+	width: 85%;
+	padding: 5px;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px 5px #666666;
+	border-radius: 50px;
+	background-color: #a9927d;
+
+}
+
+.aturGambar{
+	max-height: 400px;
+	object-position: center;
+}
+
+
+.gambarBawah{
+	max-height: 225px;
+	object-position: center;
+}
+
+
+.jumbotron{  /*Buat header*/
+   font-size: 20px;
+   padding: 60px;
+   background-color: #5E503F;
+   text-align: center;
+   color: white;	
+}
+
+.bawah{
+    margin: 0 auto;
+}
+
+
+.tengah{
+	text-align: center;
+           width: 30%;
+           float: left;
+           padding: 5px;
+           height: 700px;
+}
+
+.kanan{
+	text-align: center;
+           width: 30%;
+           float: right;
+           padding: 5px;
+           height: 700px;
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+.logoHeader{
+	width: 10%;
+	object-position: center;
+}
